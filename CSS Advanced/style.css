@@ -10,6 +10,7 @@
 *{
   font-family: sans-serif;
   text-decoration: none;
+  user-select: none;
 }
 
 nav li a{
@@ -118,21 +119,17 @@ text-align: center;
   color: #fff;
 }
 
-/* .tutor-img{
-  border-radius: 50%;
-} */
 
 .tutors img{
   margin-bottom: 1rem;
 }
+
 .tutors h3{
   font-family: Source Sans Pro;
 font-size: 18px;
 font-weight: 900;
 line-height: 27px;
 text-align: center;
-
-
 }
 
 .tutors p{
@@ -144,16 +141,318 @@ text-align: center;
   line-height: 24px;
   text-align: center;
 }
-/* body, main{
+
+
+.quote-section{
+  height: 392px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C271FF;
+  color: #fff;
+  font-family: Source Sans Pro;
+
+
+  }
+  
+.quote-sectionHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 4rem;
+  margin: 0 auto;
+  padding-left: 16rem;
+
 }
 
 
-body{
-  flex-direction: column;
+.quote{
+  text-align: left;
+  margin-top: 1rem;
 }
 
-main{
-  flex-direction: row;
-  flex: auto;
-} */
+blockquote{
+width: 70%;
+font-size: 22px;
+font-weight: 400;
+line-height: 33.6px;
+margin-bottom: 1rem;
+}
+
+.quote h3{
+font-size: 22px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: left;
+margin-top: 1rem;
+
+}
+
+.quote p{
+font-size: 22px;
+font-style: italic;
+font-weight: 400;
+line-height: 33.6px;
+}
+
+.video-section{
+  margin: 5rem 0;
+  padding: 1rem 10rem;
+  background-color: #fff;
+  width: 90%;
+
+
+}
+
+
+.video-section>h2{
+  display: flex;
+  justify-content: center;
+font-size: 32px;
+font-weight: 300;
+text-align: center;
+margin-bottom: 5rem;
+
+
+}
+
+.video-section>h2>span{
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+color: #C271FF;
+margin: 0 .5rem 0 .5rem;
+
+}
+
+.videoSection-holder{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.holder{
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.play-button{
+  position: absolute;
+  left: 85px;
+  bottom: 38px;
+}
+
+.video-section h3{
+  font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: left;
+margin-bottom: .5rem;
+color: #071629;
+}
+
+.video-section p{
+  width: 60%;
+  color: #071629;
+  font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.review-img{
+  display: flex;
+  margin-top: .8rem;
+}
+
+.review-img img{
+  width: 7%;
+  height: 7%;
+}
+
+.video-section h4{
+  font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+margin-left: .5rem;
+color: #C271FF;
+}
+
+.star{
+  display: flex;
+  justify-content: space-between;
+  color: #C271FF;
+   margin-top: 1rem;
+   width: 80%;
+}
+
+.lastStar {
+   color: #cac3c3;
+}
+.star p{
+  text-align: center;
+}
+
+.membership-section{
+  background-color: #071629;
+  color: #fff;
+  padding: 1rem 10rem;
+  width: 90%;
+ height: 520px;
+  
+}
+
+.membership-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.membership-title{
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+
+}
+
+.membership-title>h2{
+
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+color: #C271FF;
+}
+
+.membership-title>h2>span{
+font-size: 32px;
+font-weight: 300;
+text-align: center;
+margin-left: .3rem;
+color: #fff;
+}
+
+
+.each-member h3{
+font-size: 18px;
+font-weight: 600;
+margin: 1.5rem 0;
+
+}
+.each-member p{
+font-size: 14px;
+font-weight: 400;
+  width: 60%;
+} 
+
+.membership-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.membership-section button{
+  margin-top: 3rem;
+  color: #fff;
+  background-color: #C271FF;
+  border: none;
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  box-shadow: 4px 0px 10px #cac3c3;
+}
+
+
+.faq-section{
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+.faq-section>h2{
+  width: 70%;
+  color: #071629;
+  padding-left:14rem ;
+
+font-size: 60px;
+font-weight: 300;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+}
+
+.faq-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:14rem ;
+  margin: 0 auto;
+}
+
+
+faq-post{
+  display: flex;
+  justify-content: center;
+  margin: 0 aut;
+}
+
+.faq-title{
+  font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: left;
+margin: 5rem 0 2rem 0;
+
+}
+
+.faq-writeUp{
+  font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+  width: 80%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  background-color: #071629;
+  color: #fff;
+  padding: 3rem 10rem;
+  width: 90%;
+ height: 300px;
+ margin-top: 5rem;
+}
+
+footer>section{
+  width: 80%;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer i{
+  margin-right: 1rem;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
