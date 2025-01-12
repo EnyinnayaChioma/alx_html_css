@@ -349,11 +349,35 @@ margin: 9rem ;
 
 /* media query for phone */
 @media  screen and (max-width: 767px){
+
+  body{
+    width: 767px;
+  }
+
+
   .each-service{
     width: 90%;
     /* background-color: rgb(43, 46, 194); */
   }
 
+  .each-percent{
+    width: 50%;
+
+  }
+
+
+  .result-percent-holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .percent-writeup{
+    position: absolute;
+    left: 3rem;
+    right: 3rem;
+     
+  }
 }
 
 
@@ -395,13 +419,13 @@ margin: 9rem ;
     text-align: center;
     background-color: #fff;
   }
+
   .each-percent{
     width: 33%;
 
   }
 
   .percent-writeup{
-    /* background-color: red; */
     position: absolute;
     left: 2rem;
     right: 2rem;
