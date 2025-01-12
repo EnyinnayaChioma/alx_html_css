@@ -172,7 +172,8 @@ section.hero-writeup{
 }
 
 .each-service{
-  max-width: 18%;
+  width: 18%;
+  background-color: antiquewhite;
 }
 
 
@@ -240,6 +241,7 @@ section.hero-writeup{
 .result-percent-holder{
   margin: 8rem 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 17rem;
 }
 
@@ -251,7 +253,7 @@ section.hero-writeup{
 
 .each-percent{
   position: relative;
-
+  background-color: red;
 }
 
 .percent-writeup{
@@ -344,8 +346,65 @@ margin: 9rem ;
   justify-content: center;
 }
 
+
+/* media query for phone */
+@media  screen and (max-width: 767px){
+  .each-service{
+    width: 90%;
+    /* background-color: rgb(43, 46, 194); */
+  }
+
+}
+
+
+
 /* media query for tab */
 @media screen and (min-width: 768px ) and (max-width: 992px){
 
 
+  body{
+    width: 992px;
+  }
+
+  .section.hero-writeup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 18rem ;
+  }
+
+  .our-services{
+    background-color: red;
+  }
+
+  .each-service{
+    width:40%;
+    
+    background-color: rgb(43, 194, 50);
+  }
+
+  .our-services .each-service-p{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+  }
+  .each-percent{
+    width: 33%;
+
+  }
+
+  .percent-writeup{
+    /* background-color: red; */
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+     
+  }
 }
